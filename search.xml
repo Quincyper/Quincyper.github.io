@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>搭建测试</title>
+      <link href="/2019/12/12/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%B5%8B%E8%AF%95/"/>
+      <url>/2019/12/12/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%B5%8B%E8%AF%95/</url>
+      
+        <content type="html"><![CDATA[<center>此篇为测试，如若符合要求后期会自动删除</center><a id="more"></a><h3 id="创建一篇新文章"><a href="#创建一篇新文章" class="headerlink" title="创建一篇新文章"></a>创建一篇新文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"博客搭建测试"</span></span><br></pre></td></tr></table></figure><p>有一说一 qzp牛逼</p><h3 id="本地查看静态网页"><a href="#本地查看静态网页" class="headerlink" title="本地查看静态网页"></a>本地查看静态网页</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>我宣布 现在这里称之为qzp广场 全体起立 qzp牛逼</p><h3 id="上传网页同步"><a href="#上传网页同步" class="headerlink" title="上传网页同步"></a>上传网页同步</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>奥里给！<br>qzp牛批！qzp牛批！qzp牛批！qzp牛批！qzp牛批！qzp牛批！qzp牛批！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 测试类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>

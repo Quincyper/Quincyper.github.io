@@ -1259,7 +1259,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #05ffa1;
+  background: #82ff46;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1401,7 +1401,7 @@ pre .javascript .function {
   text-overflow: ellipsis;
 }
 .post-toc .nav .nav-child {
-  display: block;
+  display: none;
 }
 .post-toc .nav .active > .nav-child {
   display: block;
@@ -1577,6 +1577,16 @@ pre .javascript .function {
 }
 .back-to-top.back-to-top-on:hover {
   opacity: 0.8;
+}
+.reading-progress-bar {
+  background: #37c6c0;
+  display: block;
+  height: 3px;
+  left: 0;
+  position: fixed;
+  width: 0;
+  z-index: 1500;
+  top: 0;
 }
 .post-body {
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -2425,4 +2435,84 @@ embed {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+/*--------------------------------------*/
+/*TODO---------添加背景图片-------------*/
+/*--------------------------------------*/
+/* https://blog.csdn.net/weixin_40837922/article/details/88047241添加背景图片*/
+body {
+  background: url("https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@3.0.6/images/background/021.webp");
+  background-size: cover; /* 100% 100% 设置保持图像的纵横比并将图像缩放成将完全覆盖背景定位区域的最小大小*/
+  background-repeat: no-repeat; /*设定背景图片非重复填充*/
+  background-attachment: no-fixed; /*设置背景图片不随页面滚动*/
+  background-position: 50% 50%; /*设置背景图片位置*/
+}
+.main-inner {
+  background: #fff;
+  opacity: 0.9;
+}
+.header-inner {
+  opacity: 0.8;
+}
+/*--------------------------------------*/
+/*TODO---------归档页样式优化----------*/
+/*--------------------------------------*/
+.my-post-time {
+  position: absolute;
+  color: #fff;
+  background-color: #49b1f5;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 15px;
+}
+.mypost {
+  position: relative;
+  margin-bottom: 1rem;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+a.my-post-title-link:before {
+  top: 10px;
+  width: 18px;
+  height: 18px;
+  content: "\f073";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 18px;
+  line-height: 18px;
+}
+a.my-post-title-link {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+.my-post-title {
+  display: block;
+  margin-left: 5rem;
+  color: #4c4948;
+  text-decoration: none;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.my-post-header {
+  position: top;
+  margin-bottom: 1rem;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.my-post-title-link {
+  font-size: 16px;
+  font-weight: 500;
+}
+.my-post-meta {
+  position: absolute;
+  color: #99a9bf;
+  width: 80px;
+  color: #114142;
 }
